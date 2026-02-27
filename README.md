@@ -38,7 +38,6 @@ Case-insensitive search logic
 
 Optimized comparison handling
 
-Accurate duplicate detection
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
