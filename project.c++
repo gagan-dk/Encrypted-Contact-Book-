@@ -4,7 +4,6 @@
 #include <cctype>
 using namespace std;
 
-/* ===================== DATA STRUCTURE ===================== */
 
 struct Node
 {
@@ -18,11 +17,9 @@ struct Node
 Node* head = NULL;
 Node* lastDeletedContact = NULL;
 
-/* ===================== COUNTRY DATA ===================== */
 
 string countryCodes[4] = { "+91", "+1", "+44", "+61" };
 
-/* ===================== HELPER FUNCTIONS ===================== */
 
 string makeTextLowerCase(string text)
 {
@@ -39,7 +36,6 @@ void getLine(string& text)
         getline(cin, text);
 }
 
-/* ===================== ENCRYPTION ===================== */
 
 string encryptText(string data)
 {
@@ -57,7 +53,6 @@ string decryptText(string data)
     return result;
 }
 
-/* ===================== VALIDATION ===================== */
 
 bool isEmailCorrect(string email)
 {
@@ -74,7 +69,6 @@ bool isPhoneNumberCorrect(string phone)
     return true;
 }
 
-/* ===================== NODE ===================== */
 
 Node* makeNode(string name, string phone, string mail)
 {
@@ -87,7 +81,6 @@ Node* makeNode(string name, string phone, string mail)
     return n;
 }
 
-/* ===================== FILE BACKEND ===================== */
 
 void saveToFile()
 {
@@ -131,7 +124,6 @@ void loadFromFile()
     file.close();
 }
 
-/* ===================== COUNTRY ===================== */
 
 string getCountryCode()
 {
@@ -152,7 +144,6 @@ string getCountryCode()
     return code;
 }
 
-/* ===================== DUPLICATE ===================== */
 
 bool isDuplicate(string phone, string email, Node* ignore = NULL)
 {
@@ -169,7 +160,6 @@ bool isDuplicate(string phone, string email, Node* ignore = NULL)
     return false;
 }
 
-/* ===================== SEARCH ===================== */
 
 Node* searchContact(string name)
 {
@@ -184,7 +174,6 @@ Node* searchContact(string name)
     return NULL;
 }
 
-/* ===================== PAGINATION (SHOW) ===================== */
 
 void showContactsWithPagination()
 {
@@ -229,7 +218,6 @@ void showContactsWithPagination()
     }
 }
 
-/* ===================== ADD ===================== */
 
 void addContact()
 {
@@ -268,7 +256,6 @@ void addContact()
     cout << "Contact added successfully.\n";
 }
 
-/* ===================== MAIN ===================== */
 
 int main()
 {
