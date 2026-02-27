@@ -5,7 +5,7 @@
 Developed a fully functional Contact Management System using C++ with advanced features like encryption, pagination, sorting, duplicate prevention, undo delete, and file-based backend storage.
 
 ✅ Core Features
-  
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------
 📌 Data Structure Implementation
 
 Implemented using Doubly Linked List
@@ -16,7 +16,7 @@ Dynamic memory management
 
 Safe node linking and unlinking
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📌 CRUD Operations
 
@@ -29,7 +29,7 @@ Delete Contact (with Undo feature)
 Search Contact (case-insensitive)
 
 Show Contacts
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Advanced Search
@@ -39,6 +39,7 @@ Case-insensitive search logic
 Optimized comparison handling
 
 Accurate duplicate detection
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -50,6 +51,7 @@ Prevents duplicate email addresses
 
 Case-insensitive email comparison
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Validation System
@@ -62,6 +64,7 @@ Country code validation (+91, +1, +44, +61)
 
 Robust input validation to prevent crashes
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Data Security (Encryption Integrated)
@@ -74,6 +77,7 @@ Automatic decryption while loading
 
 File-level privacy protection
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 File-Based Backend
@@ -86,6 +90,7 @@ Auto-load on system startup
 
 Export / download functionality
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Undo Delete Feature
@@ -96,6 +101,7 @@ Allows user to restore before permanent deletion
 
 Prevents accidental data loss
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Sorting System
@@ -108,6 +114,7 @@ Sort by Email
 
 Non-destructive sorting (original list preserved)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 📌 Pagination (Scalable UI)
@@ -134,6 +141,8 @@ Prevents segmentation faults
 
 Memory-safe pointer operations
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠 Technical Skills Demonstrated
 
 C++ Programming
@@ -157,6 +166,7 @@ Edge Case Handling
 Scalable Output Design (Pagination)
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 🧠 Engineering Concepts Applied
