@@ -1,4 +1,4 @@
-🚀 Contact Management System (C++ | Doubly Linked List | File Backend | Security Integrated)
+**🚀 CONTACT MANAGEMENT SYSTEM (C++ | Doubly Linked List | File Backend | Security Integrated)
 
 🔹 Project Overview
 
