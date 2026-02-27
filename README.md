@@ -183,3 +183,28 @@ Modular programming
 Clean function-based architecture
 
 Real-world system design thinkin
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📁 Project Structure
+Contact-Management-System/
+│
+├── main.cpp
+├── contacts.txt
+└── README.md
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+▶ How to Run
+
+Clone the repository:
+
+git clone https://github.com/your-username/contact-management-system.git
+
+Compile:
+
+g++ main.cpp -o contact
+
+Run:
+
+./contact
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
