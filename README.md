@@ -5,15 +5,6 @@
 Developed a fully functional Contact Management System using C++ with advanced features like encryption, pagination, sorting, duplicate prevention, undo delete, and file-based backend storage.
 
 ✅ Core Features
-
-
-
-
-
-
-
-
-
   
 📌 Data Structure Implementation
 
