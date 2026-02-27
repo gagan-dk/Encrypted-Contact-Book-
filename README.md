@@ -28,7 +28,8 @@ Delete Contact (with Undo feature)
 
 Search Contact (case-insensitive)
 
-Show Contacts
+Show contacts 
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
